@@ -74,6 +74,11 @@ a:hover {
   text-decoration: none;
 }
 
+#toggleLink {
+  cursor: pointer; /* Ensures the cursor changes to a pointer when hovering over the link */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
 body,
 td,
 th,
@@ -95,7 +100,7 @@ heading {
 }
 
 heading2 {
-  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-family: 'Open Sans', Verdana, Helvetica, sans-serif;
   font-size: 18px;
 }
 

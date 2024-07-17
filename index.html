@@ -70,12 +70,12 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>News</heading>
               <ul>
-                <li>[Jul. 2024] Our work on calibrated sequential recommendation was accepted at <a href="https://cikm2024.org">CIKM 2024</a>.</li>
-                <li>[Jan. 2024] Our work on cold-start bundle recommendation was accepted at <a href="https://www2024.thewebconf.org">The Web Conference 2024</a>.</li>
+                <li>[Jul. 2024] Our work on calibrated sequential recommendation has been accepted at <a href="https://cikm2024.org">CIKM 2024</a>.</li>
+                <li>[Jan. 2024] Our work on cold-start bundle recommendation has been accepted at <a href="https://www2024.thewebconf.org">The Web Conference 2024</a>.</li>
                 <li>[Aug. 2023] I successfully defended my PhD thesis and received the <a href="https://cse.snu.ac.kr/node/68332">Distinguished PhD Dissertation Award</a> from Seoul National University.</li>
                 <li>[May. 2023] I was honored to receive the Sejong Science Fellowship Grants under the Overseas Training Track. I plan to extend my research into the development of robust and interactive recommender systems.</li>
-                <li>[Feb. 2023] Our two works on diversified recommendation were accepted at <a href="https://pakdd2023.org">PAKDD 2023</a>.</li>
-                <li>[Jan. 2023] Our work on bundle recommendation was accepted at <a href="https://journals.plos.org/plosone/">PLOS ONE</a>.</li>
+                <li>[Feb. 2023] Our two works on diversified recommendation have been accepted at <a href="https://pakdd2023.org">PAKDD 2023</a>.</li>
+                <li>[Jan. 2023] Our work on bundle recommendation has been accepted at <a href="https://journals.plos.org/plosone/">PLOS ONE</a>.</li>
 <!--                <li>[Aug. 2022] I won <a href="https://sigir.org/general-information/travel-grants/">SIGIR Student Travel Grant</a> for <a href="https://www.cikm2022.org">CIKM 2022</a> attendance.</li>-->
 <!--                <li>[Aug. 2022] Our work on IoT recommendation was accepted at <a href="https://www.cikm2022.org">CIKM 2022</a>.</li>-->
 <!--                <li>[May. 2022] Our work on feature estimation in graphs was accepted at <a href="https://kdd.org/kdd2022/">KDD 2022</a>.</li>-->
@@ -103,7 +103,7 @@
                 <td width="75%" valign="center">
                   <li><strong>University of California San Diego</strong>, California, United States</li>
                   <ul>
-                    Postdoctoral Researcher in <a href="https://cse.ucsd.edu">Computer Science and Engineering</a> (Present)<br>
+                    Postdoctoral Researcher in <a href="https://cse.ucsd.edu">Computer Science and Engineering</a> (Sep. 2023 - <span style="color: red;">Present</span>)<br>
                   </ul>
                 </td>
                 </tr>
@@ -215,9 +215,14 @@
               <u>Hyunsik Jeon</u>, Se-eun Yoon, and Julian McAuley
               <br>
               <strong><em><a href="https://cikm2024.org">CIKM 2024</a></em></strong>, Boise, Idaho, USA
-              <br><b><font color="#ff4500">(To appear)</font></b></br>
+              <br>
+              <b><font color="#ff4500">(To appear)</font></b>
 <!--              [<a href="data/WWW24(CoHeat).pdf">paper</a> / <a href="data/WWW24(CoHeatSlide).pdf">slides</a> / <a href="data/WWW24(CoHeatPoster).pdf">poster</a> / <a href="https://github.com/snudatalab/CoHeat">code</a> / <a href="data/jeon2024.bib">bib</a>]-->
-              <p>How can we reflect a balanced representation of user interests in sequential recommendations? We propose LeapRec which effectively combines model training with reranking to address the challenges of calibrating recommendations in a dynamic user preference environment.</p>
+              <br>
+              <a href="javascript:void(0);" id="toggleLinkLeapRec" onclick="toggleVisibility('moreInfoLeapRec')">TL;DR</a>
+              <div id="moreInfoLeapRec" style="max-height: 0; overflow: hidden; transition: max-height 0.5s ease;">
+                <span>How can we reflect a balanced representation of user interests in sequential recommendations? We propose LeapRec which effectively combines model training with reranking to address the challenges of calibrating recommendations in a dynamic user preference environment.</span>
+              </div>
             </td>
         </tr>
 
@@ -234,7 +239,11 @@
               <br>
               <b><font color="#ff4500">Oral Presentation</font></b><br/>
               [<a href="data/WWW24(CoHeat).pdf">paper</a> / <a href="data/WWW24(CoHeatSlide).pdf">slides</a> / <a href="data/WWW24(CoHeatPoster).pdf">poster</a> / <a href="https://github.com/snudatalab/CoHeat">code</a> / <a href="data/jeon2024.bib">bib</a>]
-              <p>How can we accurately recommend cold-start bundles to users? We propose CoHeat which recommends cold-start bundles (as well as warm-start bundles), accurately.</p>
+              <br>
+              <a href="javascript:void(0);" id="toggleLinkCoHeat" onclick="toggleVisibility('moreInfoCoHeat')">TL;DR</a>
+              <div id="moreInfoCoHeat" style="max-height: 0; overflow: hidden; transition: max-height 0.5s ease;">
+                <span>How can we accurately recommend cold-start bundles to users? We propose CoHeat which recommends cold-start bundles (as well as warm-start bundles), accurately.</span>
+              </div>
             </td>
         </tr>
 
@@ -261,7 +270,11 @@
               <strong><em><a href="https://pakdd2023.org">PAKDD 2023</a></em></strong>, Osaka, Japan
               <br>
               [<a href="data/PAKDD23(PopCon).pdf">paper</a> / <a href="data/PAKDD23(PopConSlide).pdf">slides</a> / <a href="https://github.com/snudatalab/PopCon">code</a> / <a href="data/jeon2023.bib">bib</a>]
-              <p>How can we expose diverse items across all users while satisfying their needs in bundle recommendations? We propose PopCon which recommends top-k bundles to users, accurately and aggregately diversely.</p>
+              <br>
+              <a href="javascript:void(0);" id="toggleLinkPopCon" onclick="toggleVisibility('moreInfoPopCon')">TL;DR</a>
+              <div id="moreInfoPopCon" style="max-height: 0; overflow: hidden; transition: max-height 0.5s ease;">
+                <span>How can we expose diverse items across all users while satisfying their needs in bundle recommendations? We propose PopCon which recommends top-k bundles to users, accurately and aggregately diversely.</span>
+              </div>
             </td>
           </tr>
 
@@ -277,7 +290,11 @@
               <strong><em><a href="https://pakdd2023.org">PAKDD 2023</a></em></strong>, Osaka, Japan
               <br>
               [<a href="data/PAKDD23(DivMF).pdf">paper</a> / <a href="https://arxiv.org/pdf/2211.01328.pdf">arxiv</a> / <a href="https://github.com/snudatalab/DivMF">code</a> / <a href="data/kim2023.bib">bib</a>]
-              <p>When recommending personalized top-k items to users, how can we recommend the items diversely to them while satisfying their needs? We propose DivMF which recommends top-k items to users, accurately and aggregately diversely.</p>
+              <br>
+              <a href="javascript:void(0);" id="toggleLinkDivMF" onclick="toggleVisibility('moreInfoDivMF')">TL;DR</a>
+              <div id="moreInfoDivMF" style="max-height: 0; overflow: hidden; transition: max-height 0.5s ease;">
+                <span>When recommending personalized top-k items to users, how can we recommend the items diversely to them while satisfying their needs? We propose DivMF which recommends top-k items to users, accurately and aggregately diversely.</span>
+              </div>
             </td>
           </tr>
 
@@ -293,7 +310,11 @@
               <strong><em><a href="https://journals.plos.org/plosone/">PLOS ONE</a> (2023)</em></strong>
               <br>
               [<a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0280630">paper</a> / <a href="https://arxiv.org/pdf/2210.15460.pdf">arxiv</a> / <a href="https://github.com/snudatalab/BundleMage">code</a> / <a href="https://dblp.org/rec/journals/corr/abs-2210-15460.html?view=bibtex">bib</a>]
-              <p>Given item and bundle purchase histories of users, how can we match existing bundles to the users and generate new bundles for them? We propose BundleMage which matches existing bundles and generates personalized bundles simultaneously.</p>
+              <br>
+              <a href="javascript:void(0);" id="toggleLinkBundleMage" onclick="toggleVisibility('moreInfoBundleMage')">TL;DR</a>
+              <div id="moreInfoBundleMage" style="max-height: 0; overflow: hidden; transition: max-height 0.5s ease;">
+                <span>Given item and bundle purchase histories of users, how can we match existing bundles to the users and generate new bundles for them? We propose BundleMage which matches existing bundles and generates personalized bundles simultaneously.</span>
+              </div>
             </td>
           </tr>
 
@@ -322,7 +343,11 @@
               <br>
               <b><font color="#ff4500">SIGIR Student Travel Grant</font></b><br/>
               [<a href="data/CIKM22(SmartSense).pdf">paper</a> / <a href="data/CIKM22(SmartSenseSlide).pdf">slides</a> / <a href="data/codes(SmartSense).zip">codes</a> / <a href="https://github.com/snudatalab/SmartSense">dataset</a> / <a href="https://dblp.org/rec/journals/corr/abs-2208-06089.html?view=bibtex">bib</a>]
-              <p>How can we accurately recommend actions for users to control their devices at home? We propose SmartSense which recommends device controls to users, accurately.</p>
+              <br>
+              <a href="javascript:void(0);" id="toggleLinkSmartSense" onclick="toggleVisibility('moreInfoSmartSense')">TL;DR</a>
+              <div id="moreInfoSmartSense" style="max-height: 0; overflow: hidden; transition: max-height 0.5s ease;">
+                <span>How can we accurately recommend actions for users to control their devices at home? We propose SmartSense which recommends device controls to users, accurately.</span>
+              </div>
             </td>
           </tr>
 
@@ -338,7 +363,11 @@
               <strong><em><a href="https://kdd.org/kdd2022/">KDD 2022</a></em></strong>, Washington D.C., USA
               <br>
               [<a href="https://arxiv.org/pdf/2206.04516.pdf">paper</a> / <a href="https://jaeminyoo.github.io/resources/slides/YooJJK22.pdf">slides</a> / <a href="https://github.com/snudatalab/SVGA">code</a> / <a href="https://dblp.uni-trier.de/rec/conf/kdd/YooJJK22.html?view=bibtex">bib</a>]
-              <p>Given a graph with partial observations of node features, how can we estimate the missing features accurately? We propose SVGA which estimates the missing features of nodes, accurately.</p>
+              <br>
+              <a href="javascript:void(0);" id="toggleLinkSVGA" onclick="toggleVisibility('moreInfoSVGA')">TL;DR</a>
+              <div id="moreInfoSVGA" style="max-height: 0; overflow: hidden; transition: max-height 0.5s ease;">
+                <span>Given a graph with partial observations of node features, how can we estimate the missing features accurately? We propose SVGA which estimates the missing features of nodes, accurately.</span>
+              </div>
             </td>
           </tr>
 
@@ -365,7 +394,11 @@
               <strong><em><a href="https://www.springer.com/journal/10115">KAIS</a> (2021)</em></strong>
               <br>
               [<a href="https://link.springer.com/content/pdf/10.1007/s10115-021-01618-9.pdf">paper</a> / <a href="https://dblp.org/rec/journals/kais/KooJK21.html?view=bibtex">bib</a>]
-              <p>Given sequential news watch logs of users, how can we accurately recommend news articles? We propose PGT which recommends personalized news to the users, accurately.</p>
+              <br>
+              <a href="javascript:void(0);" id="toggleLinkPGT_J" onclick="toggleVisibility('moreInfoPGT_J')">TL;DR</a>
+              <div id="moreInfoPGT_J" style="max-height: 0; overflow: hidden; transition: max-height 0.5s ease;">
+                <span>Given sequential news watch logs of users, how can we accurately recommend news articles? We propose PGT which recommends personalized news to the users, accurately.</span>
+              </div>
             </td>
           </tr>
 
@@ -382,7 +415,11 @@
               <strong><em><a href="https://journals.plos.org/plosone/">PLOS ONE</a> (2021)</em></strong>
               <br>
               [<a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0255754">paper</a> / <a href="https://github.com/snudatalab/MultiEPL">code</a> / <a href="data/lee2021.bib">bib</a>]
-              <p>Given multiple source datasets with labels, how can we train a target model with no labeled data? We propose Multi-EPL which accurately classifies the target dataset while utilizing multiple source datasets.</p>
+              <br>
+              <a href="javascript:void(0);" id="toggleLinkMultiEPL" onclick="toggleVisibility('moreInfoMultiEPL')">TL;DR</a>
+              <div id="moreInfoMultiEPL" style="max-height: 0; overflow: hidden; transition: max-height 0.5s ease;">
+                <span>Given multiple source datasets with labels, how can we train a target model with no labeled data? We propose Multi-EPL which accurately classifies the target dataset while utilizing multiple source datasets.</span>
+              </div>
             </td>
           </tr>
 
@@ -399,7 +436,11 @@
               <strong><em><a href="https://journals.plos.org/plosone/">PLOS ONE</a> (2021)</em></strong>
               <br>
               [<a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0253415">paper</a> / <a href="https://github.com/snudatalab/DEMS">code</a> / <a href="data/jeon2021.html">bib</a>]
-              <p>Given trained models from multiple source domains without any data, how can we predict the labels of unlabeled data in a target domain? We propose DEMS which adapts target data to source domains and accurately estimates the target labels, without exploiting any source data.</p>
+              <br>
+              <a href="javascript:void(0);" id="toggleLinkDEMS" onclick="toggleVisibility('moreInfoDEMS')">TL;DR</a>
+              <div id="moreInfoDEMS" style="max-height: 0; overflow: hidden; transition: max-height 0.5s ease;">
+                <span>Given trained models from multiple source domains without any data, how can we predict the labels of unlabeled data in a target domain? We propose DEMS which adapts target data to source domains and accurately estimates the target labels, without exploiting any source data.</span>
+              </div>
             </td>
           </tr>
 
@@ -427,7 +468,11 @@
               <br>
               <b><font color="#ff4500">Best Student Paper Award</font></b><br/>
               [<a href="https://datalab.snu.ac.kr/pgt/resources/pgt_pakdd2020.pdf">paper</a> / <a href="https://datalab.snu.ac.kr/pgt/">homepage</a> / <a href="https://dblp.org/rec/conf/pakdd/KooJK20.html?view=bibtex">bib</a>]
-              <p>Given session-based watch history of users, how can we precisely recommend new articles? We propose PGT which recommends news to the users, accurately.</p>
+              <br>
+              <a href="javascript:void(0);" id="toggleLinkPGT" onclick="toggleVisibility('moreInfoPGT')">TL;DR</a>
+              <div id="moreInfoPGT" style="max-height: 0; overflow: hidden; transition: max-height 0.5s ease;">
+                <span>Given session-based watch history of users, how can we precisely recommend new articles? We propose PGT which recommends news to the users, accurately.</span>
+              </div>
             </td>
           </tr>
 
@@ -444,7 +489,11 @@
               <br>
               <b><font color="#ff4500">Samsung HumanTech Paper Award, BigData Student Travel Grant</font></b><br/>
               [<a href="https://arxiv.org/pdf/1908.08469.pdf">paper</a> / <a href="https://datalab.snu.ac.kr/dacona/resources/slides.pdf">slides</a> / <a href="https://datalab.snu.ac.kr/dacona/">homepage</a> / <a href="https://dblp.org/rec/conf/bigdataconf/JeonKK19.html?view=bibtex">bib</a>]
-              <p>Given a sparse rating matrix and an auxiliary matrix of users or items, how can we accurately predict missing ratings considering different data contexts of entities? We propose DaConA which accurately predicts ratings utilizing auxiliary matrix, based on neural networks.</p>
+              <br>
+              <a href="javascript:void(0);" id="toggleLinkDaConA" onclick="toggleVisibility('moreInfoDaConA')">TL;DR</a>
+              <div id="moreInfoDaConA" style="max-height: 0; overflow: hidden; transition: max-height 0.5s ease;">
+                <span>Given a sparse rating matrix and an auxiliary matrix of users or items, how can we accurately predict missing ratings considering different data contexts of entities? We propose DaConA which accurately predicts ratings utilizing auxiliary matrix, based on neural networks.</span>
+              </div>
             </td>
           </tr>
 
@@ -461,7 +510,11 @@
               <strong><em><a href="https://www.ijcai19.org">IJCAI 2019</a></em></strong>, Macao, China
               <br>
               [<a href="https://www.ijcai.org/proceedings/2019/0580.pdf">paper</a> / <a href="https://jaeminyoo.github.io/resources/slides/YooJK19.pdf">slides</a> / <a href="https://jaeminyoo.github.io/resources/posters/JoYK18.pdf">poster</a> / <a href="https://github.com/snudatalab/BPN">code</a> / <a href="https://dblp.org/rec/conf/ijcai/YooJK19.html?view=bibtex">bib</a>]
-              <p>Given graph-structured data, how can we train a robust classifier in a semi-supervised setting that performs well without neighborhood information? We propose BPN which accurately classifies nodes in a hard inductive setting, based on a neural network.</p>
+              <br>
+              <a href="javascript:void(0);" id="toggleLinkBPN" onclick="toggleVisibility('moreInfoBPN')">TL;DR</a>
+              <div id="moreInfoBPN" style="max-height: 0; overflow: hidden; transition: max-height 0.5s ease;">
+                <span>Given graph-structured data, how can we train a robust classifier in a semi-supervised setting that performs well without neighborhood information? We propose BPN which accurately classifies nodes in a hard inductive setting, based on a neural network.</span>
+              </div>
             </td>
           </tr>
 
@@ -477,18 +530,15 @@
               <strong><em><a href="https://arxiv.org">arXiv</a> (2017)</em></strong>
               <br>
               [<a href="https://arxiv.org/pdf/1710.07134.pdf">arxiv</a> / <a href="https://datalab.snu.ac.kr/uniwalk/">homepage</a> / <a href="https://dblp.org/rec/journals/corr/abs-1710-07134.html?view=bibtex">bib</a>]
-              <p>Given a social network and ratings, how can we correctly recommend proper items and provide a persuasive explanation for the recommendation? We propose UniWalk which accurately recommends items and explains the reasons while exploiting both social network and rating data.</p>
+              <br>
+              <a href="javascript:void(0);" id="toggleLinkuniwalk" onclick="toggleVisibility('moreInfouniwalk')">TL;DR</a>
+              <div id="moreInfouniwalk" style="max-height: 0; overflow: hidden; transition: max-height 0.5s ease;">
+                <span>Given a social network and ratings, how can we correctly recommend proper items and provide a persuasive explanation for the recommendation? We propose UniWalk which accurately recommends items and explains the reasons while exploiting both social network and rating data.</span>
+              </div>
             </td>
           </tr>
 
-
-
         </tbody></table>
-
-
-
-
-				
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
             <td>
@@ -514,7 +564,7 @@
         </tbody></table>
         <table width="100%" align="center" border="0" cellpadding="20"><tbody>
 
-					
+
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
@@ -532,3 +582,19 @@
 </body>
 
 </html>
+
+<script>
+function toggleVisibility(divId) {
+    var info = document.getElementById(divId);
+    var link = document.getElementById('toggleLink' + divId);
+    if (info.style.maxHeight !== '100px') {
+        info.style.maxHeight = '100px';
+        link.textContent = 'Hide TL;DR';
+        link.style.color = '#f09228';
+    } else {
+        info.style.maxHeight = '0';
+        link.textContent = 'TL;DR';
+        link.style.color = '#1772d0';
+    }
+}
+</script>
