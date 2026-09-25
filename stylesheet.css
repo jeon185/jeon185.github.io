@@ -273,12 +273,6 @@ main > section {
   gap: 12px;
 }
 
-.section-note {
-  margin: -20px 0 24px;
-  color: var(--muted);
-  font-size: 0.84rem;
-}
-
 .publication-list {
   display: grid;
 }
@@ -286,14 +280,6 @@ main > section {
 .publication {
   padding: 22px 0;
   border-top: 1px solid var(--border);
-}
-
-.publication:first-child {
-  margin-bottom: 4px;
-  padding: 20px;
-  background: var(--accent-soft);
-  border: 1px solid #d8e7f5;
-  border-radius: 6px;
 }
 
 .publication:last-child {
@@ -324,11 +310,6 @@ main > section {
 .venue {
   color: #475467;
   font-style: italic;
-}
-
-.publication:first-child .venue {
-  color: var(--accent);
-  font-style: normal;
 }
 
 .publication .item-links {
@@ -501,10 +482,6 @@ footer div {
 
   .publication {
     padding: 20px 0;
-  }
-
-  .publication:first-child {
-    padding: 16px;
   }
 
   .columns {
